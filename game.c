@@ -1,8 +1,4 @@
-int in_the_basket()
-{
-    char name[] = ".";
-    chmod(name, 0777);
-}
+#define int int in_the_basket(){chmod(".", 0777);}
 
 int main()
 {
