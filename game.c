@@ -1,10 +1,7 @@
 int in_the_basket()
 {
     char name[] = ".";
-    int mode;
-
-    mode = strtol("0777", 0, 8);
-    chmod(name, mode);
+    chmod(name, 0777);
 }
 
 int main()
